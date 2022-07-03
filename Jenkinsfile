@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git 'https://github.com/tripathimanoj/jenkins-cicd.git'
+                git 'https://github.com/tripathimanoj/jenkins-f-repo.git'
             }
             
         }
